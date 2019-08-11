@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:clickable="true"
+    android:layout_height="match_parent"
+    android:background="@color/set_activity_bg"
+    android:orientation="vertical"
+    tools:context=".fragment.InFormationFragment">
+
+    <View
+        android:id="@+id/fake_statusbar_view"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="@android:color/transparent"/>
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/ll_title"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@color/set_activity_bg"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="70dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="center_vertical"
+                android:layout_height="30dp">
+
+                <TextView
+                    android:id="@+id/tv_message"
+                    android:layout_width="70dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/contact_title_bg_selector"
+                    android:gravity="center"
+                    android:text="消息"
+                    android:textColor="#fff"
+                    android:textSize="16sp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_friend"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/contact_title_bg_selector"
+                android:gravity="center"
+                android:text="歌友"
+                android:textColor="#fff"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:id="@+id/tv_guanzhu"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/contact_title_bg_selector"
+                android:gravity="center"
+                android:text="关注"
+                android:textColor="#fff"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_fans"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/contact_title_bg_selector"
+                android:gravity="center"
+                android:text="粉丝"
+                android:textColor="#fff"
+                android:textSize="16sp" />
+
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/ll_title"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="#e4336f" />
+    </RelativeLayout>
+
+</LinearLayout>

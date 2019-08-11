@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WisDomSong</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Discover" >发现</string>
+    <string name="Musiclibrary">乐库</string>
+    <string name="Message">消息</string>
+    <string name="My">我的</string>
+    <string name="Shoot" />
+</resources>

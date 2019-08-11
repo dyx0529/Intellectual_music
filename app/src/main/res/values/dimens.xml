@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_progress_bar_width">100dp</dimen>
+    <dimen name="default_progress_bar_height">100dp</dimen>
+    <dimen name="top_view_height">48dp</dimen>
+    <dimen name="sheet_music_item_width_default">180dp</dimen>
+    <dimen name="sheet_music_item_line_width_default">1dp</dimen>
+    <dimen name="sheet_music_item_divider_width_default">1dp</dimen>
+    <dimen name="sheet_music_item_pitch_width_default">1dp</dimen>
+    <dimen name="sheet_music_item_pitch_height_default">3dp</dimen>
+    <dimen name="item_create_accompaniment_width">70dp</dimen>
+    <dimen name="creation_banner_margin">180dp</dimen>
+
+    <dimen name="item_wheel_chords_height">42dp</dimen>
+    <dimen name="default_divider_height">12dp</dimen>
+    <dimen name="jc_start_button_w_h_normal">45dp</dimen>
+    <dimen name="jc_start_button_w_h_fullscreen">62dp</dimen>
+    <dimen name="person_setting_menu_width">250dp</dimen>
+    <dimen name="person_header_height">350dp</dimen>
+
+    <dimen name="list_item_space">10dp</dimen>
+    <dimen name="font_size_28px">14.0sp</dimen>
+    <dimen name="alivc_record_title_icon_padding">5dp</dimen>
+
+    <dimen name="aliyun_svideo_square_thumbnail_size">32dp</dimen>
+    <dimen name="alivc_svideo_effect_title_height">45dp</dimen>
+    <dimen name="alivc_svideo_effect_height">215dp</dimen>
+    <dimen name="alivc_svideo_effect_tip_height">30dp</dimen>
+    <dimen name="alivc_svideo_effect_icon_wh">48dp</dimen>
+    <dimen name="alivc_svideo_tab_tv_iv_distance">10dp</dimen>
+    <dimen name="alivc_svideo_title_height">64dp</dimen>
+    <dimen name="bottom_editor_tab_height">40dp</dimen>
+    <dimen name="bottom_editor_effect_category_tab_height">38dp</dimen>
+    <dimen name="bottom_editor_effect_category_tab_width">56dp</dimen>
+    <dimen name="bottom_editor_effect_tab">60dp</dimen>
+    <dimen name="effect_list_view_size">100dp</dimen>
+    <dimen name="bottom_editor_tab_padding">20dp</dimen>
+    <dimen name="effect_overlay_view_size">80dp</dimen>
+    <dimen name="qupai_effect_paster_operation_size">44dp</dimen>
+    <dimen name="cut_music_item_height">30dp</dimen>
+    <dimen name="item_video_list_caption_text_size">14sp</dimen>
+    <dimen name="statusbar_view_height">0dp</dimen>
+</resources>

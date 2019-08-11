@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_bottom_layout"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/main_bottom_height"
+    android:background="@color/bottom_navigation_background"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:id="@+id/tab_home_layout"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:onClick="onClick">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tab_home"
+                style="@style/tab_menu_text"
+                android:text="@string/tab_discovery" />
+
+            <TextView
+                style="@style/tab_menu_bg_num"
+                android:layout_toRightOf="@+id/tab_home"
+                android:text="99+"
+                android:visibility="gone" />
+
+            <View
+                android:id="@+id/view_1"
+                android:layout_width="40dp"
+                android:layout_height="1dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="5dp"
+                android:background="#fff"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_library_layout"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:onClick="onClick">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tab_library"
+                style="@style/tab_menu_text"
+                android:text="@string/tab_library" />
+
+            <TextView
+                style="@style/tab_menu_bg_num"
+                android:layout_toRightOf="@+id/tab_library"
+                android:text="99+"
+                android:visibility="gone" />
+            <View
+                android:id="@+id/view_2"
+                android:layout_width="40dp"
+                android:layout_marginBottom="5dp"
+                android:layout_height="1dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:background="#fff"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_creation_layout"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:onClick="onClick">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/tab_creation" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_contacts_layout"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:onClick="onClick">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tab_contacts"
+                style="@style/tab_menu_text"
+                android:text="@string/tab_contacts" />
+
+            <TextView
+                android:id="@+id/tab_contacts_num"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="8dp"
+                android:layout_toRightOf="@+id/tab_contacts"
+                android:background="@drawable/num_count_bg"
+                android:textSize="10sp"
+                android:textColor="#fff"
+                android:text="8"
+                android:visibility="visible" />
+
+            <View
+                android:id="@+id/view_4"
+                android:layout_width="40dp"
+                android:layout_height="1dp"
+                android:layout_marginBottom="5dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:background="#fff"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_person_layout"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:onClick="onClick">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tab_person"
+                style="@style/tab_menu_text"
+                android:text="@string/tab_person" />
+
+
+            <ImageView
+                android:id="@+id/tab_person_num"
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_marginTop="5dp"
+                android:src="@mipmap/comment_un_read_icon"
+                android:layout_toRightOf="@+id/tab_person"
+                android:visibility="gone" />
+
+            <View
+                android:id="@+id/view_5"
+                android:layout_width="30dp"
+                android:layout_height="1dp"
+                android:layout_marginBottom="5dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:background="#fff"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

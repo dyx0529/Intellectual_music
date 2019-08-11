@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item android:id="@+id/discover" android:title="@string/Discover"  />
+    <item android:id="@+id/Musiclibrary" android:title="@string/Musiclibrary" />
+    <item android:id="@+id/Shoot"  android:icon="@drawable/tab_creation" android:title="@string/Shoot" app:showAsAction="always" />
+    <item android:id="@+id/Message"  android:title="@string/Message"/>
+    <item android:id="@+id/My"  android:title="@string/My" />
+</menu>

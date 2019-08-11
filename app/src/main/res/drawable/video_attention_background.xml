@@ -1,0 +1,18 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <corners android:radius="18dp"/>
+            <padding android:top="1dp" android:bottom="1dp" android:left="1dp" android:right="1dp"/>
+            <gradient
+                android:angle="180"
+                android:endColor="@color/tab_indicator_color_end"
+                android:startColor="@color/tab_indicator_color_first" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners android:radius="18dp"/>
+            <solid android:color="#221c30"/>
+        </shape>
+    </item>
+</layer-list>

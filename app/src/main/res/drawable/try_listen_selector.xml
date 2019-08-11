@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@mipmap/record_sing_listen_selected" android:state_selected="true" />
+    <item android:drawable="@mipmap/record_sing_listen_unselected" android:state_enabled="false" android:state_selected="false" />
+    <item android:drawable="@mipmap/record_sing_listen_unselected_enabled" android:state_enabled="true" android:state_selected="false" />
+</selector>

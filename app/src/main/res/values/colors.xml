@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPurple">#CF09D9</color>
+    <color name="main_color">#282138</color>
+
+    <color name="indicator_color">#b8b8b8</color>
+    <color name="network_error_text_color">#A4A4A6</color>
+    <color name="title_font_color">@android:color/white</color>
+    <color name="dialog_content_text_color">@android:color/white</color>
+    <color name="bottom_navigation_background">#1c1728</color>
+    <color name="bottom_navigation_text_selected">@android:color/white</color>
+    <color name="bottom_navigation_text_unselected">#837b96</color>
+    <color name="tag_background_square_selected">#FF4081</color>
+    <color name="tag_background_squareier_selected">#CF09D9</color>
+
+    <color name="activity_bg_color" >#ffffff</color>
+    <color name="view_item_bg_press_new">#282138</color>
+    <color name="view_item_bg_new">#282138</color>
+    <color name="time_pick_btn">#000000</color>
+    <color name="time_pick_btn_press">#FFFFFF</color>
+    <color name="wheel_timebtn">#E3E3E3</color>
+    <color name="wheel_timebtn_press">#39B8BB</color>
+
+    <color name="dialog_edit_music_bg">#282138</color>
+    <color name="dialog_tip_font_color"> #837b96</color>
+    <color name="dialog_bg_color">#342653</color>
+    <color name="checked_music_font_color">#dc1cfb</color>
+    <color name="no_checked_music_font_color">#ffffff</color>
+    <color name="tag_text_color">#c0ffffff</color>
+
+    <color name="sheet_music_item_pitch_default_color">#c140e5</color>
+    <color name="sheet_music_item_line_default_color">#ffffff</color>
+    <color name="top_view_background">#221c30</color>
+    <color name="timer_text_color">#dd357f</color>
+    <color name="base_dialog_background">#fc342653</color>
+    <color name="base_dialog_background_pressed">#342653</color>
+    <color name="simple_dialog_background">@color/main_color</color>
+    <color name="item_instrument_background_empty">#4dffffff</color>
+    <color name="item_instrument_background_first">#66ffcc42</color>
+    <color name="item_instrument_background_second">#66805ecd</color>
+    <color name="item_instrument_background_third">#66be17d5</color>
+    <color name="item_instrument_background_fourth">#66e5336e</color>
+    <color name="item_instrument_background_fifth">#662e4eff</color>
+
+    <color name="set_activity_bg">#282138</color>
+    <color name="text_font_tip">#b3ffffff</color>
+
+    <color name="select_font_color">#ffffff</color>
+    <color name="no_select_font_color">#66ffffff</color>
+    <color name="segmentation_text_color">#f7cb68</color>
+
+
+    <color name="coin_reward_no_finish">#e6ffffff</color>
+    <color name="coin_reward_finish">#59ffffff</color>
+    <color name="coin_reward_get_coin">#ccffffff</color>
+
+    <color name="sync_contact_add">#ffffff</color>
+    <color name="sync_contact_no_r">#f7cb68</color>
+    <color name="sync_contact_added">#837b96</color>
+    <color name="cancel_guan_zhu">#837b96</color>
+    <color name="guan_zhu">#ffffff</color>
+    <color name="new_add_fans">#fc00ff</color>
+    <color name="guan_ming_font_color">#f7cb68</color>
+    <color name="guan_ming_sing_font_color">#fe438f</color>
+    <color name="ad_ju_jue_font_color">#c0bdc0</color>
+    <color name="ad_agree_font_color">#fc00ff</color>
+
+    <color name="dai_yan_chang">#fc00ff</color>
+    <color name="dai_edit_ci">#00dbde</color>
+
+    <color name="search_check">#ffffff</color>
+    <color name="search_no_check">#837b96</color>
+
+    <color name="textcolor_yellow">#ffc80a</color>
+    <color name="sheet_music_item_pitch_text_color">#f7cb68</color>
+
+    <color name="dialog_font_tip_color">#cb0cd6</color>
+
+
+    <color name="bg_indicator_point_normal">#D8D8D8</color>
+    <color name="bg_indicator_point_selected">#A6A6A6</color>
+
+
+    <color name="chat_red_tip_time_out_color">#99ffffff</color>
+
+    <color name="coop_select_font_color">#f804fe</color>
+    <color name="coop_noselect_font_color">#ffffff</color>
+    <color name="wheel_text_unselected">#8c81a6</color>
+    <color name="empty_text_color">#837b96</color>
+    <color name="music_detail_info_text">#837b96</color>
+
+    <color name="lrc_home_switcher_text_color">#e58cff</color>
+    <color name="person_setting_menu_background">#1c1728</color>
+    <color name="effect_font_bottom_tab_indicator">#00C1DE</color>
+    <color name="timeline_bar_active_overlay">#66EF4B81</color>
+
+    <array name="qupai_text_edit_colors">
+        <item>#FFF8AA99</item>
+        <item>#FFFFC580</item>
+        <item>#FFFFEA8A</item>
+        <item>#FFBBE5B3</item>
+        <item>#FFB6ECEB</item>
+        <item>#FFB4E0FA</item>
+        <item>#FFB3BCF5</item>
+        <item>#FFE3D0FF</item>
+        <item>#FFF9FAFB</item>
+        <item>#FFF4775C</item>
+        <item>#FFFFA133</item>
+        <item>#FFEDC200</item>
+        <item>#FF50B83C</item>
+        <item>#FF47C1BF</item>
+        <item>#FF007ACE</item>
+        <item>#FF5C6AC4</item>
+        <item>#FF9C6ADE</item>
+        <item>#FF637381</item>
+        <item>#FFF15533</item>
+        <item>#FFFF8A00</item>
+        <item>#FF9C6F19</item>
+        <item>#FF108043</item>
+        <item>#FF00848E</item>
+        <item>#FF084E8A</item>
+        <item>#FF202E78</item>
+        <item>#FF50248F</item>
+        <item>#FF212B36</item>
+        <item>#FFE55130</item>
+        <item>#FFF28300</item>
+        <item>#FF573B00</item>
+        <item>#FF173630</item>
+        <item>#FF003136</item>
+        <item>#FF00152A</item>
+        <item>#FF000639</item>
+        <item>#FF230051</item>
+    </array>
+    <array name="paint_colors">
+        <item>#F9FAFB</item>
+        <item>#F4775C</item>
+        <item>#FFA133</item>
+        <item>#EDC200</item>
+        <item>#50B83C</item>
+        <item>#47C1BF</item>
+        <item>#007ACE</item>
+        <item>#5C6AC4</item>
+        <item>#9C6ADE</item>
+    </array>
+
+    <color name="aliyun_animation_filter_color1">#E6FBDE38</color>
+    <color name="aliyun_animation_filter_color2">#E662B6FE</color>
+    <color name="aliyun_animation_filter_color3">#E6FEA933</color>
+    <color name="aliyun_animation_filter_color4">#E6F35C4B</color>
+    <color name="aliyun_animation_filter_color5">#E6798ECD</color>
+    <color name="action_bar_bg_50pct">#7f232A42</color>
+    <color name="white_alpha_0">#ffffff</color>
+    <color name="white_alpha_10">#1affffff</color>
+    <color name="white_alpha_20">#33ffffff</color>
+    <color name="white_alpha_30">#4dffffff</color>
+    <color name="white_alpha_40">#66ffffff</color>
+    <color name="white_alpha_50">#80ffffff</color>
+    <color name="white_alpha_60">#96ffffff</color>
+    <color name="white_alpha_70">#b3ffffff</color>
+    <color name="white_alpha_80">#c8ffffff</color>
+    <color name="white_alpha_90">#e4ffffff</color>
+    <color name="tab_indicator_color">#EF4B81</color>
+    <color name="defalut_primary_color_alpha30">#4dff5454</color>
+    <color name="defalut_primary_color">#ff5454</color>
+    <color name="action_bar_bg">#232A42</color>
+    <color name="bg_effect_manager">#232A42</color>
+    <color name="tab_bg_color">#1B2133</color>
+    <color name="tab_text_color">#6E768B</color>
+    <color name="compose_edit_text">#bcbec5</color>
+    <color name="qupai_black_opacity_80pct">#cc000000</color>
+    <color name="alivc_svideo_text_gray_light">#C3C5C6</color>
+
+    <color name="aliyun_colorPrimary">#232A42</color>
+    <color name="aliyun_record_fill_progress">#fff600</color>
+    <color name="aliyun_color_bg">#232A42</color>
+    <color name="aliyun_seek_bar_theme">#F05487</color>
+    <color name="aliyun_radio_btn_bg">#333b55</color>
+
+    <color name="video_gray">#837b96</color>
+    <color name="music_crop_background">#837b96</color>
+    <color name="music_crop_progress_1">#00dbde</color>
+    <color name="music_crop_progress_2">#7e6eef</color>
+    <color name="music_crop_progress_3">#fc00ff</color>
+    <color name="tab_indicator_color_first">#B842C0</color>
+    <color name="tab_indicator_color_end">#E13773</color>
+    <color name="attention_gray">#49415B</color>
+    <color name="discovery_divider">#221c30</color>
+    <color name="sign_color">#837b96</color>
+</resources>
